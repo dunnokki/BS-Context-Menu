@@ -25,11 +25,11 @@ Include the script after Bootstrap's JavaScript:
 
 ```html
 <!-- Bootstrap 5 -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
 <!-- BS Context Menu -->
-<script defer src="https://cdn.jsdelivr.net/gh/dunnokki/BS-Context-Menu@main/dist/bsContextMenu.min.js" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/gh/dunnokki/BS-Context-Menu@v1.0.1/dist/bsContextMenu.min.js" integrity="sha384-ie1fkUVwKMksPjtZ6r82ix11wdg8jy/gzOj/JBBfI7++ZN51t99C8BZ66CPWqn96" crossorigin="anonymous"></script>
 ```
 
 ### Download
