@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo</title>
+    <!-- Bootstrap 5.3.8 via jsDelivr CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+
+    <!-- BS Context Menu custom component. This you will need to utilize the context menus! -->
+    <script defer src="scripts/bsContextMenu.js"></script>
+  </head>
+  <body>
+    <a href="https://example.com/" rel="noopener" target="_blank" data-bs-context-menu="linkMenu">
+      Example hyperlink
+    </a>
+    <div class="context-menu" id="linkMenu">
+      <ul>
+        <li><a class="dropdown-item" href="#" onclick="ContextMenuActions.openLink()">Open link</a></li>
+        <li><a class="dropdown-item" href="#" onclick="ContextMenuActions.openLinkNewTab()">Open in new tab</a></li>
+        <li><hr class="dropdown-divider" /></li>
+        <li><a class="dropdown-item" href="#" onclick="ContextMenuActions.copyLinkAddress()">Copy link address</a></li>
+      </ul>
+    </div>
+    <script src="scripts/myScript.js"></script>
+  </body>
+</html>
