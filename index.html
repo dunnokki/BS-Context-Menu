@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="light">
+  <!------------------------------->
+  <!-- BS Context Menu demo page -->
+  <!------------------------------->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Demo</title>
+    <title>BS Context Menu - Demo page</title>
     <!-- Bootstrap 5.3.8 via jsDelivr CDN -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -12,10 +15,10 @@
       crossorigin="anonymous" />
 
     <!-- BS Context Menu custom component. This you will need to utilize the context menus! -->
-    <script defer src="scripts/bsContextMenu.js"></script>
+    <script defer src="dist/bsContextMenu.js"></script>
 
     <!-- Demo page scripts. Only for this demo, you do not need these in your project. -->
-    <script defer src="scripts/demoScripts.js"></script>
+    <script defer src="demo-scripts/demoScripts.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
@@ -26,105 +29,15 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.11.1/build/styles/default.min.css" />
     <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.11.1/build/highlight.min.js"></script>
-
     <script>
       hljs.highlightAll();
     </script>
     <meta name="theme-color" content="#712cf9" />
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-      .b-example-divider {
-        width: 100%;
-        height: 3rem;
-        background-color: #0000001a;
-        border: solid rgba(0, 0, 0, 0.15);
-        border-width: 1px 0;
-        box-shadow: inset 0 0.5em 1.5em #0000001a, inset 0 0.125em 0.5em #00000026;
-      }
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-      .bi {
-        vertical-align: -0.125em;
-        fill: currentColor;
-      }
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-      .btn-bd-primary {
-        --bd-violet-bg: #712cf9;
-        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-        --bs-btn-font-weight: 600;
-        --bs-btn-color: var(--bs-white);
-        --bs-btn-bg: var(--bd-violet-bg);
-        --bs-btn-border-color: var(--bd-violet-bg);
-        --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #6528e0;
-        --bs-btn-hover-border-color: #6528e0;
-        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-        --bs-btn-active-color: var(--bs-btn-hover-color);
-        --bs-btn-active-bg: #5a23c8;
-        --bs-btn-active-border-color: #5a23c8;
-      }
-      .bd-mode-toggle {
-        z-index: 1500;
-      }
-      .bd-mode-toggle .bi {
-        width: 1.2em;
-        height: 1.2em;
-      }
-      .bd-mode-toggle .dropdown-menu .active .bi {
-        display: block !important;
-      }
-      .bd-copy-btn svg {
-        transition: fill 0.15s ease-in-out;
-      }
-      .bd-copy-btn svg {
-        width: 1rem;
-        height: 1rem;
-        fill: var(--bs-body-color);
-      }
-      .bd-copy-btn:hover svg {
-        fill: var(--bs-primary);
-      }
-      .bd-copy-btn:focus {
-        box-shadow: 0 0 0 0.25rem rgba(var(--bs-primary-rgb), 0.25);
-      }
-      pre {
-        position: relative;
-      }
-      pre code {
-        display: block;
-        padding: 1rem 1.5rem;
-        overflow-x: auto;
-      }
-    </style>
+    <meta name="description" content="BS Context Menu is a lightweight JavaScript library that enables developers utilizing Bootstrap 5 to add custom right-click context menus to any element on a web page." />
+    <meta name="keywords" content="bootstrap, bootstrap 5, context menu, right click menu, custom context menu, bs context menu, bscontextmenu, bootstrap context-menu, javascript library, web ui, user interface, web development, frontend development" />
+    <meta name="author" content="github.com/dunnokki" />
+    <link rel="canonical" href="https://dunnokki.github.io/BS-Context-Menu/" />
+    <link rel="stylesheet" href="demo-styles/styles.css" />
   </head>
   <body>
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
@@ -224,7 +137,7 @@
           custom right-click context menus to any element on a web page.
         </p>
         <div class="mb-5">
-          <a href="https://github.com/dunnokki/BS-Context-Menu" class="btn btn-primary btn-lg px-4"
+          <a href="https://github.com/dunnokki/BS-Context-Menu" rel="noopener" target="_blank"  class="btn btn-primary btn-lg px-4"
             >GitHub repository</a
           >
         </div>

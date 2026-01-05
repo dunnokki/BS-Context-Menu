@@ -1,6 +1,6 @@
 # BS Context Menu
 
-A lightweight JavaScript library that enables custom right-click context menus for Bootstrap 5 applications.
+A lightweight JavaScript library that enables custom component right-click context menus for Bootstrap 5 applications.
 
 [![Bootstrap 5](https://img.shields.io/badge/Bootstrap-5.3-7952b3?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 [![License](https://img.shields.io/badge/License-Apache2.0-green.svg)](LICENSE)
@@ -314,5 +314,5 @@ Please feel free to submit a Pull Request.
 
 ## Links
 
-- [Live Demo](public/demo.html)
+- [Live Demo](https://dunnokki.github.io/BS-Context-Menu/)
 - [Report Issues](https://github.com/dunnokki/BS-Context-Menu/issues)
