@@ -1,0 +1,23 @@
+{
+  "name": "bs-context-menu",
+  "version": "1.0.0",
+  "description": "Context menu for Bootstrap",
+  "keywords": [
+    "bootstrap",
+    "context",
+    "menu",
+    "ui",
+    "right",
+    "click"
+  ],
+  "license": "Apache-2.0",
+  "author": "dunnokki",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
