@@ -66,12 +66,10 @@
       </symbol>
     </svg>
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
-      <symbol id="bootstrap" viewBox="0 0 118 94">
+      <symbol id="bootstrap" viewBox="0 0 16 16">
         <title>Bootstrap</title>
-        <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"></path>
+          <path d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377z"/>
+  <path d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3z"/>
       </symbol>
     </svg>
     <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
@@ -127,14 +125,14 @@
           <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
             <use xlink:href="#bootstrap"></use>
           </svg>
-          <span class="fs-4">BS Context Menu Demo</span>
+          <span class="fs-4">BS Context Menu</span>
         </a>
       </header>
       <main>
         <h1 class="text-body-emphasis">In short</h1>
-        <p class="fs-5 col-md-8">
+        <p class="fs-5 col-md-8 mb-5">
           BS Context Menu is a lightweight JavaScript library that enables developers utilizing Bootstrap 5 to add
-          custom right-click context menus to any element on a web page.
+          custom right-click context menus to any element on a web page. Unaffiliated with the Bootstrap team.
         </p>
         <div class="mb-5">
           <a href="https://github.com/dunnokki/BS-Context-Menu" rel="noopener" target="_blank"  class="btn btn-primary btn-lg px-4"
@@ -250,16 +248,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-6">
-            <h3 class="text-body-emphasis">Image</h3>
-            <p><b class="text-primary">Right click the image</b> to reveal a context menu for it.</p>
-            <img
-              src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png"
-              class="img-fluid"
-              alt="Bootstrap Logo Shadow"
-              data-bs-context-menu="imageMenu" />
-          </div>
-          <div class="col-md-6">
+                    <div class="col-md-6">
             <h3 class="text-body-emphasis">Table</h3>
             <p><b class="text-primary">Right click the table</b> to reveal a context menu for it.</p>
             <table class="table table-striped">
@@ -292,6 +281,17 @@
                 </tr>
               </tbody>
             </table>
+          </div>
+          <div class="col-md-6">
+            <h3 class="text-body-emphasis">Image</h3>
+            <p><b class="text-primary">Right click the image</b> to reveal a context menu for it.</p>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Boots_%28drawing%29.jpg"
+              class="img-fluid mb-3 w-25"
+              alt="Boots"
+              title="MoMu - Fashion Museum Antwerp, CC0, via Wikimedia Commons"
+              data-bs-context-menu="imageMenu" />
+            <p class="fst-italic">Ring, David: <a class="text-decoration-none" href="https://commons.wikimedia.org/wiki/File:Boots_(drawing).jpg">"Boots"</a> 2015. MoMu - Fashion Museum Antwerp, CC0, via Wikimedia Commons.</p>
           </div>
         </div>
       </main>
